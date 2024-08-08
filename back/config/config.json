@@ -1,0 +1,15 @@
+{
+  "db_server": {
+    "user": "postgres",
+    "password": "1234",
+    "server": "127.0.0.1",
+    "database": "test",
+    "port": "5432",
+    "options": {
+      "encrypt": false,
+      "enableArithAbort": true,
+      "useUTC": false
+    },
+    "dateStrings": true
+  }
+}

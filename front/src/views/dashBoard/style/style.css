@@ -1,0 +1,56 @@
+.tooltip {
+  padding: 20px 30px 20px 20px;
+}
+
+.tooltip > .title {
+  text-align: left;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.tooltip > .inner > .inner-row {
+  font-weight: 400;
+  font-size: 14px !important;
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.lineChart {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.lineChart .title {
+  color: #2b3674 !important;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: "Pretendard" !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.lineChart .legend {
+  margin-top: 10px;
+  margin-right: 29px;
+}
+.lineChart .legend > span {
+  margin-right: 12px;
+  color: #a2acc8;
+  font-size: 12px !important;
+}
+.lineChart .legend .circle {
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.work-color {
+  background: #5a89d9;
+}
+
+.inspect-color {
+  background: #acd9cb;
+}
